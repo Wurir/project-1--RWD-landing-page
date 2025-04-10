@@ -5,3 +5,7 @@
 .nav__btn {
     display: initial;
 }
+
+.nav__hamburger-wrapper {
+    display: none;
+}
