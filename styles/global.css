@@ -30,3 +30,9 @@ body {
 .nav__link {
     text-decoration: none;
 }
+
+.hero {
+    height: 80vh;
+    background: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+}
