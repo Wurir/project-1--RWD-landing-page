@@ -23,7 +23,7 @@ body {
     display: flex;
 }
 
-.nav__logo-container {
+.nav__logo-container, .nav__hamburger-wrapper {
     margin: 1rem;
 }
 
@@ -37,4 +37,9 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.nav__hamburger-wrapper {
+    font-size: 2rem;
+    color: whitesmoke;
 }
