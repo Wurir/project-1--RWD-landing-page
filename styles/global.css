@@ -34,5 +34,7 @@ body {
 .hero {
     height: 80vh;
     background: url(../images/banner/banner.png);
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
 }
