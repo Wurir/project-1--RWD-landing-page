@@ -78,6 +78,7 @@ body {
 
 .hero__desc {
     font-weight: 300;
+    opacity: 0.8;
     margin-bottom: 2rem;
 }
 
@@ -148,11 +149,13 @@ body {
 
 .features__header {
     font-size: 2rem;
+    opacity: 0.8;
     margin: 1rem 0;
 }
 
 .features__desc {
     font-weight: 300;
+    opacity: 0.8;
 }
 
 .features__btn {
@@ -210,3 +213,103 @@ body {
     font-size: 0.8rem;
 }
 
+
+/* PRICING */
+
+.pricing {
+    margin-top: 50px;
+    padding: 1rem;
+}
+
+.pricing__header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.pricing__header {
+    font-size: 2rem;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+
+.pricing__desc {
+    opacity: 0.8;
+}
+
+.pricing__list, .pricing__item, .pricing__offer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__item {
+    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+    box-shadow: 0px 0px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing__item-wrapper {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing__item-wrapper--blue{
+    background-color: #E9F4FE;
+}
+
+.pricing__item-wrapper--orange{
+    background-color: #FEF4EE;
+}
+
+.pricing__item-wrapper--green{
+    background-color: #E8FCF1;
+}
+
+
+.pricing__price--blue{
+    color: #74A9F7;
+}
+
+.pricing__price--orange{
+    color: #FDB8A6;
+}
+
+.pricing__price--green{
+    color: #04D370;
+}
+
+
+.pricing__item-plan, .pricing__price {
+    margin: 0.5rem 1.5rem;
+}
+
+.pricing__item-plan {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.pricing__btn {
+    background-color: transparent;
+    color: skyblue;
+    border: 1px solid skyblue;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.pricing__offer-list {
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.pricing__offert-item {
+    margin: 1rem 0;
+    opacity: 0.8;
+}

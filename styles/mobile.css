@@ -31,3 +31,11 @@
 
 
 /* FEATURES */
+
+
+
+/* PRICING */
+
+.pricing__list {
+    flex-direction: column;
+}
