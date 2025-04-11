@@ -39,3 +39,9 @@
 .pricing__list {
     flex-direction: column;
 }
+
+/* DOWNLOAD */
+
+.download {
+    flex-direction: column;
+}

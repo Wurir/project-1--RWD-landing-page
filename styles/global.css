@@ -316,3 +316,25 @@ body {
     margin: 1rem 0;
     opacity: 0.8;
 }
+
+ 
+/* DOWNLOAD */
+
+.download {
+    background: #5DB2FF;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download__header {
+    margin: 1rem 0;
+    opacity: 0.9;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+
+/* FOOTER */
