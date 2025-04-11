@@ -2,6 +2,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 .btn {
@@ -45,7 +46,7 @@ body {
 }
 
 .hero {
-    height: 80vh;
+    height: calc(100vh - 80px);
     background: url(../images/banner/banner.png);
     background-position: top;
     background-repeat: no-repeat;
@@ -55,4 +56,32 @@ body {
 .nav__hamburger-wrapper {
     font-size: 2rem;
     color: whitesmoke;
+}
+
+.hero__article--desc {
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.hero__header {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+    line-height: 2rem;
+}
+
+.hero__desc {
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.hero__btn {
+    background-color: #37EBED;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+.ads__header {
+    margin: 2rem;
 }
