@@ -272,6 +272,9 @@ body {
     background-color: #E8FCF1;
 }
 
+.pricing__price {
+    font-size: 1.2rem;
+}
 
 .pricing__price--blue{
     color: #74A9F7;
