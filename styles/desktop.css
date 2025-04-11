@@ -9,3 +9,11 @@
 .nav__hamburger-wrapper {
     display: none;
 }
+
+.pricing__item {
+    margin: 0
+}
+
+.download {
+    justify-content: space-evenly;
+}

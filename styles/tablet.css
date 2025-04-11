@@ -1,3 +1,33 @@
+.header {
+    background-color: none;
+} 
+
 .nav__list, .nav__btn {
     display: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero__article--desc {
+    max-width: 40%;
+}
+
+.hero__article--image {
+    width: 60%;
+}
+
+.hero__image-container, .hero__image {
+    width: 100%;
+}
+
+.pricing__item {
+    margin: 0
+}
+
+.download {
+    flex-direction: column;
 }

@@ -25,6 +25,10 @@
 
 /* ADS */
 
+.ads__header {
+    text-align: center;
+}
+
 .ads__list {
     flex-direction: column;
 }
