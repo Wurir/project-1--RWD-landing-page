@@ -1,3 +1,13 @@
+:root {
+    --font : whitesmoke;
+    --header-bg: #2C2C2C;
+    --hero-btn: #37EBED;
+    --features-btn: #0181F5;
+    --pricing-btn: skyblue;
+    --dowload-bg: #5DB2FF;
+    --footer-bg: #1F1F1F;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -23,7 +33,7 @@ body {
 /* HEADER */
 
 .header {
-    background-color: #2C2C2C;
+    background-color: var(--header-bg);
     height: 80px;
 }
 
@@ -59,14 +69,14 @@ body {
 
 .nav__hamburger-wrapper {
     font-size: 2rem;
-    color: whitesmoke;
+    color: var(--font);
 }
 
 
 /* HERO */
 
 .hero__article--desc {
-    color: whitesmoke;
+    color: var(--font);
     padding: 1rem;
 }
 
@@ -83,8 +93,8 @@ body {
 }
 
 .hero__btn {
-    background-color: #37EBED;
-    color: white;
+    background-color: var(--hero-btn);
+    color: var(--font);
     font-size: 1rem;
     padding: 1rem;
 }
@@ -159,8 +169,8 @@ body {
 }
 
 .features__btn {
-    background-color: #0181F5;
-    color: white;
+    background-color: var(--features-btn);
+    color: var(--font);
     margin: 2rem 0;
     font-size: 1.2rem;
 }
@@ -188,7 +198,7 @@ body {
 }
 
 .feedback__header, .feedback__desc, .feedback__score-username {
-    color: white;
+    color: var(--font);
 }
 
 .feedback__header {
@@ -300,8 +310,8 @@ body {
 
 .pricing__btn {
     background-color: transparent;
-    color: skyblue;
-    border: 1px solid skyblue;
+    color: var(--pricing-btn);
+    border: 1px solid var(--pricing-btn);
     margin: 2rem 0;
     font-size: 1.1rem;
     font-weight: 500;
@@ -321,7 +331,7 @@ body {
 /* DOWNLOAD */
 
 .download {
-    background: #5DB2FF;
+    background: var(--dowload-bg);
     height: 400px;
     display: flex;
     justify-content: center;
@@ -332,9 +342,14 @@ body {
     margin: 1rem 0;
     opacity: 0.9;
     font-size: 2rem;
-    color: white;
+    color: var(--font);
     text-align: center;
 }
 
 
 /* FOOTER */
+
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--font);
+}
