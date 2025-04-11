@@ -82,6 +82,48 @@ body {
 }
 
 
+.ads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
 .ads__header {
-    margin: 2rem;
+    font-size: 1.3rem;
+}
+
+.ads__list, .ads__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads__item {
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.ads__image-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads__image-container--blue{
+    background-color: #349CFA;
+}
+
+.ads__image-container--orange{
+    background-color: #FD9D5D;
+}
+
+.ads__image-container--green{
+    background-color: #37EF8D;
 }

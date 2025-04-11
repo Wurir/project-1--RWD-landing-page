@@ -15,3 +15,7 @@
 .hero__image {
     margin-bottom: 2rem;
 }   
+
+.ads__list {
+    flex-direction: column;
+}
