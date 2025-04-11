@@ -18,6 +18,9 @@ body {
     transform: scale(1.05);
 }
 
+
+/* HEADER */
+
 .header {
     background-color: #2C2C2C;
     height: 80px;
@@ -58,6 +61,9 @@ body {
     color: whitesmoke;
 }
 
+
+/* HERO */
+
 .hero__article--desc {
     color: whitesmoke;
     padding: 1rem;
@@ -81,6 +87,8 @@ body {
     padding: 1rem;
 }
 
+
+/* ADS */
 
 .ads {
     display: flex;
@@ -127,3 +135,5 @@ body {
 .ads__image-container--green{
     background-color: #37EF8D;
 }
+
+/* FEATURES */

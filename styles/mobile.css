@@ -1,6 +1,12 @@
+
+/* HEADER */
+
 .nav__list, .nav__btn {
     display: none;
 }
+
+
+/* HERO */
 
 .hero {
     display: flex;
@@ -16,6 +22,12 @@
     margin-bottom: 2rem;
 }   
 
+
+/* ADS */
+
 .ads__list {
     flex-direction: column;
 }
+
+
+/* FEATURES */
