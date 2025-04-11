@@ -4,7 +4,7 @@
     --hero-btn: #37EBED;
     --features-btn: #0181F5;
     --pricing-btn: skyblue;
-    --dowload-bg: #5DB2FF;
+    --download-bg: #5DB2FF;
     --footer-bg: #1F1F1F;
 }
 
@@ -331,7 +331,7 @@ body {
 /* DOWNLOAD */
 
 .download {
-    background: var(--dowload-bg);
+    background: var(--download-bg);
     height: 400px;
     display: flex;
     justify-content: center;
