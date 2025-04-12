@@ -1,9 +1,13 @@
+/* HEADER */
+
 .nav__list, .nav__btn {
     display: none;
 }
 
+
+/* HERO */
+
 .hero {
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -12,13 +16,17 @@
     max-width: 30%;
 }  
 
+
+/* PRICING */
+
 .pricing__item {
     margin: 0
 }
 
-.features {
-    display: flex;
-}
+
+/* FEATURES */
+
+
 
 .features__article {
     flex-basis: 50%;
@@ -29,9 +37,15 @@
     flex-direction: column;
 }
 
+
+/* DOWNLOAD */
+
 .download {
     flex-direction: column;
 }
+
+
+/* FOOTER */
 
 .footer__links {
     padding: 100px;

@@ -1,3 +1,12 @@
+/* HEADER */
+
+.header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    padding: 0 100px;
+}
+
 .nav__list {
     display: flex;
 }
@@ -10,10 +19,88 @@
     display: none;
 }
 
+
+/* HERO */
+
+.hero {
+    padding-top: 200px;
+    justify-content: space-evenly;
+}
+
+
+/* ADS */
+
+.ads__header {
+    margin: 100px 0
+}
+
+.ads__item {
+    max-width: 300px;
+}
+
+
+/* FEATURES */
+
+.features {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.features__article {
+    flex-basis: 50%;
+}
+
+
+/* FEEDBACK */
+
+.feedback, .feedback__container {
+    height: 40vh;
+}
+
+
+/* PRICING */
+
+.pricing {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.pricing__header-container {
+    margin: 100px 0;
+}
+
+.pricing__list {
+    margin-bottom: 100px;
+}
+
 .pricing__item {
     margin: 0
 }
 
+
+/* DOWNLOAD */
+
 .download {
     justify-content: space-evenly;
+}
+
+
+/* FOOTER */
+
+.footer {
+    height: 50vh;
+}
+
+.footer__links-list {
+    flex-wrap: nowrap;
+}
+
+.footer__links-item--logo {
+    margin-right: 100px;
+}
+
+.footer__links-item {
+    flex-basis: 20%;
+    padding: 1rem;
 }
