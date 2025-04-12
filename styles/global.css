@@ -4,6 +4,7 @@
     --hero-btn: #37EBED;
     --features-btn: #0181F5;
     --pricing-btn: skyblue;
+    --nav-btn: #42B3FA;
     --download-bg: #5DB2FF;
     --footer-bg: #1F1F1F;
 
@@ -68,6 +69,15 @@ body {
 .nav__hamburger-wrapper {
     font-size: 2rem;
     color: var(--font);
+}
+
+.nav__btn {
+    background-color: var(--nav-btn);
+    color: var(--font);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.5rem;
+    width: 150px;
 }
 
 
