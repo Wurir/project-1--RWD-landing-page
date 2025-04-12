@@ -375,8 +375,13 @@ body {
     color: var(--font);
 }
 
-.footer__socials, .footer__links, .footer__copyrights-wrapper {
+.footer__links, .footer__copyrights-wrapper {
     padding: 2rem;
+}
+.footer__links-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer__logo {
@@ -389,10 +394,12 @@ body {
 
 .footer__desc {
     opacity: 0.9;
+    font-size: 1rem;
 }
 
 .footer__socials-wrapper {
     display: flex;
+    margin-top: 2rem;
 }
 
 .footer__social-icon {
@@ -415,6 +422,14 @@ body {
 .footer__links-item {
     font-size: 1.7rem;
     margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--font);
 }
 
 .footer__links-sublist {

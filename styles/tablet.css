@@ -12,10 +12,6 @@
     max-width: 30%;
 }  
 
-/* .hero__image-container, .hero__image {
-    width: 100%;
-} */
-
 .pricing__item {
     margin: 0
 }
@@ -35,4 +31,16 @@
 
 .download {
     flex-direction: column;
+}
+
+.footer__links {
+    padding: 100px;
+}
+
+.footer__links-item {
+    flex-basis: 50%;
+}
+
+.footer__item-header {
+    margin-bottom: 1rem;
 }

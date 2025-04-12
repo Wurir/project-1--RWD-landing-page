@@ -48,3 +48,9 @@
 .download {
     flex-direction: column;
 }
+
+/* FOOTER */
+
+.footer__links-item {
+    flex-basis: 100%;
+}
