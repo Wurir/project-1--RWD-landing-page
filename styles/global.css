@@ -244,6 +244,9 @@ body, html {
     align-items: center;
 }
 
+.feedback, .feedback__container {
+    height: 40vh;
+}
 .feedback__header, .feedback__desc, .feedback__score-username {
     color: var(--font);
 }
@@ -410,6 +413,7 @@ body, html {
 /* FOOTER */
 
 .footer {
+    position: relative;
     background-color: var(--footer-bg);
     color: var(--font);
 }
@@ -483,6 +487,8 @@ body, html {
 }
 
 .footer__copyrights-wrapper {
+    position: absolute;
+    bottom: 0;
     background-color: black;
     width: 100%;
     text-align: center;

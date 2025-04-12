@@ -37,6 +37,12 @@
     align-items: center;
 }
 
+.hero__article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .hero__article--image, .hero__article--desc {
     flex-basis: 49%;
 }  
@@ -46,9 +52,12 @@
 }
 
 /* ADS */
+.ads{
+    margin: 100px 0;
+}
 
 .ads__header {
-    margin: 100px 0
+    margin: 100px 0;
 }
 
 .ads__item {
@@ -60,7 +69,7 @@
 
 .features {
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 100px auto;
     padding-top: 100px;
 }
 
@@ -71,9 +80,7 @@
 
 /* FEEDBACK */
 
-.feedback, .feedback__container {
-    height: 40vh;
-}
+
 
 
 /* PRICING */
