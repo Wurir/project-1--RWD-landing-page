@@ -21,6 +21,7 @@ body {
 
 .btn {
     min-width: 120px;
+    max-width: 220px;
     min-height: 40px;
     padding: 1rem;
     border: none;
@@ -171,14 +172,12 @@ body {
 .features__header {
     font-size: var(--section-header-font-size);
     opacity: 0.8;
-    text-align: center;
     margin: 1rem 0;
 }
 
 .features__desc {
     font-size: var(--description-font-size);
     font-weight: 300;
-    text-align: center;
     opacity: 0.8;
 }
 
