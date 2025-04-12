@@ -82,11 +82,6 @@ body, html {
     padding: 1rem;
 }
 
-.nav__link-arrow-down {
-    transform: rotate(90deg);
-    margin-left: 5px;
-}
-
 .nav__hamburger-wrapper {
     font-size: 2rem;
     color: var(--font);
