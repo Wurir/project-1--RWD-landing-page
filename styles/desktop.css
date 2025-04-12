@@ -27,6 +27,19 @@
     justify-content: space-evenly;
 }
 
+.hero__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__article--image, .hero__article--desc {
+    flex-basis: 49%;
+}  
+
+.hero__article--desc {
+    padding-left: 100px;
+}
 
 /* ADS */
 

@@ -9,9 +9,9 @@
 /* HERO */
 
 .hero {
-    display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .hero__article--image {
@@ -36,6 +36,9 @@
 
 /* FEATURES */
 
+.features {
+    flex-direction: column;
+}
 
 /* PRICING */
 

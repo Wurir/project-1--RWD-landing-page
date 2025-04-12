@@ -12,8 +12,8 @@
     align-items: center;
 }
 
-.hero__article--image {
-    max-width: 30%;
+.hero__article--image, .hero__article--desc {
+    flex-basis: 49%;
 }  
 
 
@@ -25,7 +25,6 @@
 
 
 /* FEATURES */
-
 
 
 .features__article {
