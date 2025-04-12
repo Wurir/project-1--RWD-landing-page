@@ -439,6 +439,10 @@ body {
     margin: 1rem 0;
 }
 
+.footer__links-subitem {
+    margin: 0.7rem 0;
+}
+
 .footer__copyrights-wrapper {
     background-color: black;
     width: 100%;
