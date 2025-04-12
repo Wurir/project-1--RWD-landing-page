@@ -145,7 +145,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 100px 0;
     justify-content: center;
 }
 
@@ -416,6 +416,7 @@ body, html {
     position: relative;
     background-color: var(--footer-bg);
     color: var(--font);
+    padding-bottom: 100px;
 }
 
 .footer__links, .footer__copyrights-wrapper {
@@ -490,6 +491,7 @@ body, html {
     position: absolute;
     bottom: 0;
     background-color: black;
+    height: 100px;
     width: 100%;
     text-align: center;
 }
