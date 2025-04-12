@@ -57,14 +57,34 @@ body {
     display: flex;
 }
 
+.nav__list, .nav__item, .nav__link {
+    height: 100%;
+}
+
+.nav__item, .nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__item:hover {
+    opacity: 0.8;
+}
+
 .nav__logo-container, .nav__hamburger-wrapper {
     margin: 1rem;
 }
 
 .nav__link {
     text-decoration: none;
+    color: var(--font);
+    padding: 1rem;
 }
 
+.nav__link-arrow-down {
+    transform: rotate(90deg);
+    margin-left: 5px;
+}
 
 .nav__hamburger-wrapper {
     font-size: 2rem;
