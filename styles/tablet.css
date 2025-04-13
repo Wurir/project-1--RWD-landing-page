@@ -1,9 +1,29 @@
 /* HEADER */
 
+.nav {
+    z-index: 1;
+}
+
 .nav__list, .nav__btn {
     display: none;
 }
 
+.nav__list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.nav__link {
+    width: 100%;
+}
+
+.nav__item {
+    background-color: #2C2C2C;
+    width: 100%;
+}
 
 /* HERO */
 
