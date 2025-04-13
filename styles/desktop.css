@@ -19,6 +19,10 @@
     display: flex;
 }
 
+.nav__list{
+    font-size: 1.2rem;
+}
+
 .nav__btn {
     display: initial;
 }
