@@ -56,8 +56,8 @@ body, html {
 
 .nav__hamburger {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 15px;
+    right: 15px;
 }
 
 .nav__hamburger-checkbox {
@@ -86,8 +86,10 @@ body, html {
     color: var(--nav-link-hover);
 }
 
-.nav__logo-container, .nav__hamburger {
-    margin: 1rem;
+.nav__logo-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
 .nav__link {

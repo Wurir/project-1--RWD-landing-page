@@ -7,6 +7,10 @@
     padding: 0 100px;
 }
 
+.nav__logo-container {
+    position: initial;
+}
+
 .nav__logo {
     width: 150px;
 }
