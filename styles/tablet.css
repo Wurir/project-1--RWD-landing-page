@@ -20,10 +20,16 @@
     width: 100%;
 }
 
+
 .nav__item {
     background-color: #2C2C2C;
     width: 100%;
 }
+
+.nav__item:last-child {
+    border-bottom-left-radius: 15px;
+}
+
 
 /* HERO */
 
