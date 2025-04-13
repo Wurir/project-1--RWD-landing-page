@@ -49,8 +49,23 @@ body, html {
 }
 
 .nav {
+    position: relative;
     height: 100%;
     justify-content: space-between;
+}
+
+.nav__hamburger {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.nav__hamburger-checkbox {
+    display: none;
+}
+
+.nav__hamburger-checkbox:checked + .nav__list {
+    display: block;
 }
 
 .nav__list {
@@ -71,7 +86,7 @@ body, html {
     color: var(--nav-link-hover);
 }
 
-.nav__logo-container, .nav__hamburger-wrapper {
+.nav__logo-container, .nav__hamburger {
     margin: 1rem;
 }
 
@@ -81,7 +96,7 @@ body, html {
     padding: 1rem;
 }
 
-.nav__hamburger-wrapper {
+.nav__hamburger {
     font-size: 2rem;
     color: var(--font);
 }
